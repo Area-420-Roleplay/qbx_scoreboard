@@ -47,11 +47,11 @@ const Setup = (data) => {
     `;
   });
   scoreboardHtml += `
-    <div class="scoreboard-info-beam" style="background: rgba(241, 229, 66, 0.651)">
+    <div class="scoreboard-info-beam" style="background: rgba(255, 255, 255, 0.808)">
       <div class="info-beam-title-players">
         <p>Total Players</p>
       </div>
-      <div class="info-beam-status" id="total-players" style="color: #ededed"></div>
+      <div class="info-beam-status" id="total-players" style="color: #000000"></div>
     </div>
   `;
   $(".scoreboard-info").html(scoreboardHtml);

@@ -9,10 +9,10 @@
 
 .scoreboard-block {
   display: none;
-  border-radius: 2vh;
+  border-radius: 1.5vh;
   position: absolute;
   height: fit-content;
-  width: 40vh;
+  width: 25vh;
   background-color: rgb(23 23 23 / 80%);
   right: 3vh;
   top: 30vh;
@@ -20,22 +20,25 @@
 }
 
 .scoreboard-header {
-  border-radius: 1vh;
+  border-radius: 0.75vh;
   position: relative;
-  width: 92%;
+  width: 87%;
   height: 5vh;
   margin: 1.7vh 1.3vh 0vh 1.7vh;
-  background: rgba(241, 229, 66, 0.651);
+  background: rgba(255, 255, 255, 0.808);
+  outline: 2px solid #95EF77; 
+  outline-offset: 2px;
 }
 
 .scoreboard-header > p {
   text-align: center;
   font-weight: bold;
-  color: #ededed;
+  color: #000000;
   padding: 1.3vh;
   font-family: 'Poppins', sans-serif;
   font-size: 2.5vh;
 }
+
 #status-tab-label {
   position: absolute;
   font-family: 'Poppins', sans-serif;
@@ -62,7 +65,7 @@
   left: 2.4vh;
   line-height: 4vh;
   font-weight: bold;
-  color: #ededed;
+  color: #000000;
 }
 
 .info-beam-status {
@@ -77,18 +80,18 @@
 .scoreboard-info-beam {
   margin-top: .3vh;
   position: relative;
-  height: 4.25vh;
+  height: 3.75vh;
   width: 100%;
-  border-bottom-left-radius: 2vh;
-  border-bottom-right-radius: 2vh;
+  border-bottom-left-radius: 1.5vh;
+  border-bottom-right-radius: 1.5vh;
 }
 
 .fa-times {
-  color: rgba(241, 229, 66, 0.651);
+  color: #f13c3c;
 }
 
 .fa-check {
-  color: #28a745;
+  color: #95EF77;
 }
 
 .fa-clock {
